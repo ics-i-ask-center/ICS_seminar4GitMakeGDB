@@ -13,10 +13,10 @@
 int facCalc(int inputVal)
 {
 	int counter, output;
-	//output=0;
+	output=1;
 
 	// Calculate the factorial
-	for (counter=1; counter<inputVal; counter++)
+	for (counter=1; counter<=inputVal; counter++)
 		// Line 20
 		output=output*counter;    
 
